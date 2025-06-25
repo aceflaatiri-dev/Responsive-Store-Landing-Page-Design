@@ -17,3 +17,22 @@ footer a:hover {
     font-family: 'Pacifico', cursive;
     font-size: 1.8rem;
 }
+.card-img-top {
+  height: 250px;          
+  object-fit: cover;       
+  object-position: center; 
+}
+
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
